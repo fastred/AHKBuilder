@@ -6,20 +6,115 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A63B16D71B0135F60018F65A /* AHKBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A63B16D61B0135F60018F65A /* AHKBuilderTests.m */; };
+		A63B16DE1B0136690018F65A /* NSObject+AHKBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = A63B16DD1B0136690018F65A /* NSObject+AHKBuilder.m */; };
+		A63B16E11B0136720018F65A /* NSInvocation+AHKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A63B16E01B0136720018F65A /* NSInvocation+AHKAdditions.m */; };
+		A63B16E41B01374B0018F65A /* Reminder.m in Sources */ = {isa = PBXBuildFile; fileRef = A63B16E31B01374B0018F65A /* Reminder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A63B16D11B0135F60018F65A /* AHKBuilderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AHKBuilderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A63B16D51B0135F60018F65A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A63B16D61B0135F60018F65A /* AHKBuilderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHKBuilderTests.m; sourceTree = "<group>"; };
+		A63B16DC1B0136690018F65A /* NSObject+AHKBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AHKBuilder.h"; sourceTree = "<group>"; };
+		A63B16DD1B0136690018F65A /* NSObject+AHKBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AHKBuilder.m"; sourceTree = "<group>"; };
+		A63B16DF1B0136720018F65A /* NSInvocation+AHKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+AHKAdditions.h"; sourceTree = "<group>"; };
+		A63B16E01B0136720018F65A /* NSInvocation+AHKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+AHKAdditions.m"; sourceTree = "<group>"; };
+		A63B16E21B01374B0018F65A /* Reminder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reminder.h; sourceTree = "<group>"; };
+		A63B16E31B01374B0018F65A /* Reminder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reminder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A63B16CE1B0135F60018F65A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
 		A63B16C61B0135B20018F65A = {
 			isa = PBXGroup;
 			children = (
+				A63B16DB1B0135FC0018F65A /* AHKBuilder */,
+				A63B16D31B0135F60018F65A /* AHKBuilderTests */,
+				A63B16D21B0135F60018F65A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
+		A63B16D21B0135F60018F65A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A63B16D11B0135F60018F65A /* AHKBuilderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A63B16D31B0135F60018F65A /* AHKBuilderTests */ = {
+			isa = PBXGroup;
+			children = (
+				A63B16D61B0135F60018F65A /* AHKBuilderTests.m */,
+				A63B16E21B01374B0018F65A /* Reminder.h */,
+				A63B16E31B01374B0018F65A /* Reminder.m */,
+				A63B16D41B0135F60018F65A /* Supporting Files */,
+			);
+			path = AHKBuilderTests;
+			sourceTree = "<group>";
+		};
+		A63B16D41B0135F60018F65A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A63B16D51B0135F60018F65A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A63B16DB1B0135FC0018F65A /* AHKBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				A63B16DC1B0136690018F65A /* NSObject+AHKBuilder.h */,
+				A63B16DD1B0136690018F65A /* NSObject+AHKBuilder.m */,
+				A63B16DF1B0136720018F65A /* NSInvocation+AHKAdditions.h */,
+				A63B16E01B0136720018F65A /* NSInvocation+AHKAdditions.m */,
+			);
+			path = AHKBuilder;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A63B16D01B0135F60018F65A /* AHKBuilderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A63B16D81B0135F60018F65A /* Build configuration list for PBXNativeTarget "AHKBuilderTests" */;
+			buildPhases = (
+				A63B16CD1B0135F60018F65A /* Sources */,
+				A63B16CE1B0135F60018F65A /* Frameworks */,
+				A63B16CF1B0135F60018F65A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AHKBuilderTests;
+			productName = AHKBuilderTests;
+			productReference = A63B16D11B0135F60018F65A /* AHKBuilderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		A63B16C71B0135B20018F65A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
+				TargetAttributes = {
+					A63B16D01B0135F60018F65A = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
 			};
 			buildConfigurationList = A63B16CA1B0135B20018F65A /* Build configuration list for PBXProject "AHKBuilder" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -29,23 +124,143 @@
 				en,
 			);
 			mainGroup = A63B16C61B0135B20018F65A;
+			productRefGroup = A63B16D21B0135F60018F65A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				A63B16D01B0135F60018F65A /* AHKBuilderTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A63B16CF1B0135F60018F65A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A63B16CD1B0135F60018F65A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A63B16DE1B0136690018F65A /* NSObject+AHKBuilder.m in Sources */,
+				A63B16E11B0136720018F65A /* NSInvocation+AHKAdditions.m in Sources */,
+				A63B16D71B0135F60018F65A /* AHKBuilderTests.m in Sources */,
+				A63B16E41B01374B0018F65A /* Reminder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		A63B16CB1B0135B20018F65A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 			};
 			name = Debug;
 		};
 		A63B16CC1B0135B20018F65A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		A63B16D91B0135F60018F65A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = AHKBuilderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A63B16DA1B0135F60018F65A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = AHKBuilderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -57,6 +272,15 @@
 			buildConfigurations = (
 				A63B16CB1B0135B20018F65A /* Debug */,
 				A63B16CC1B0135B20018F65A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A63B16D81B0135F60018F65A /* Build configuration list for PBXNativeTarget "AHKBuilderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A63B16D91B0135F60018F65A /* Debug */,
+				A63B16DA1B0135F60018F65A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
