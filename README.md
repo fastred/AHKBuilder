@@ -3,7 +3,7 @@
 # AHKBuilder
 
 
-`AHKBuilder` allows you to add initialization based on the builder pattern to your immutable objects with ease.
+`AHKBuilder` allows you to add initialization based on the builder pattern to your immutable objects with ease. Implementation is described in the blog post: http://holko.pl/2015/05/12/immutable-object-initialization/
 
 ## Usage
 
