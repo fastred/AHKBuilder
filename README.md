@@ -1,4 +1,7 @@
+[![Build Status](https://travis-ci.org/fastred/AHKBuilder.svg?branch=master)](https://travis-ci.org/fastred/AHKBuilder)
+
 # AHKBuilder
+
 
 `AHKBuilder` allows you to add initialization based on the builder pattern to your immutable objects with ease.
 
