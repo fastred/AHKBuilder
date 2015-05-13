@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/fastred/AHKBuilder.svg?branch=master)](https://travis-ci.org/fastred/AHKBuilder)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 # AHKBuilder
 
@@ -19,9 +20,11 @@ Let's say you have a simple `Reminder` class:
 @end
 ```
 
-You have to perform two steps to allow initialization using a builder block:
+With just three simple steps you can add ability to your classes to be initialized with the builder block:
 
-1. Add a protocol declaring same properties as your immutable class, but with `readwrite` modifier, in our case:
+1. Import `AHKBuilder` with `#import <AHKBuilder/AHKBuilder.h>`
+
+2. Add a protocol declaring same properties as your immutable class, but with `readwrite` modifier, in our case:
   
   ```obj-c
   @protocol ReminderBuilder <NSObject>
@@ -33,7 +36,7 @@ You have to perform two steps to allow initialization using a builder block:
   @end
   ```
 
-2. Declare initialization and/or copying method using the name of protocol from 1.
+3. Declare initialization and/or copying method using the name of protocol from 1.
   
   ```obj-c
   @interface Reminder (Builder)
@@ -55,11 +58,11 @@ Reminder *reminder = [[Reminder alloc] initWithBuilder_ahk:^(id<ReminderBuilder>
 
 ## Requirements
 
- * iOS 7 and above
+ * iOS 8 and above
 
 ## Installation
 
-Source files can be found in `AHKBuilder` folder.
+Source files can be found in `AHKBuilder` folder. `AHKBuilder` is compatible with Carthage.
 
 ## Author
 
