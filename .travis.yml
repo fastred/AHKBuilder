@@ -1,7 +1,7 @@
 language: objective-c
 script:
-  - xcodebuild -project AHKBuilder.xcodeproj -scheme AHKBuilder-iOS ONLY_ACTIVE_ARCH=NO
-  - xcodebuild test -project AHKBuilder.xcodeproj -scheme AHKBuilder-iOS ONLY_ACTIVE_ARCH=NO
+  - xcodebuild -project AHKBuilder.xcodeproj -scheme AHKBuilder-iOS -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+  - xcodebuild test -project AHKBuilder.xcodeproj -scheme AHKBuilder-iOS -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
   - xcodebuild -project AHKBuilder.xcodeproj -scheme AHKBuilder-Mac ONLY_ACTIVE_ARCH=NO
   - xcodebuild test -project AHKBuilder.xcodeproj -scheme AHKBuilder-Mac ONLY_ACTIVE_ARCH=NO
 
