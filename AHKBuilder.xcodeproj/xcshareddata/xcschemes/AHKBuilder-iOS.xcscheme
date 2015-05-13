@@ -9,14 +9,28 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A6AE41641B03EB690041C1E6"
+               BuildableName = "AHKBuilder.framework"
+               BlueprintName = "AHKBuilder-iOS"
+               ReferencedContainer = "container:AHKBuilder.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
             buildForProfiling = "NO"
             buildForArchiving = "NO"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A63B16D01B0135F60018F65A"
-               BuildableName = "AHKBuilderTests.xctest"
-               BlueprintName = "AHKBuilderTests"
+               BlueprintIdentifier = "A6AE416E1B03EB690041C1E6"
+               BuildableName = "AHKBuilder-iOSTests.xctest"
+               BlueprintName = "AHKBuilder-iOSTests"
                ReferencedContainer = "container:AHKBuilder.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +46,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A63B16D01B0135F60018F65A"
-               BuildableName = "AHKBuilderTests.xctest"
-               BlueprintName = "AHKBuilderTests"
+               BlueprintIdentifier = "A6AE416E1B03EB690041C1E6"
+               BuildableName = "AHKBuilder-iOSTests.xctest"
+               BlueprintName = "AHKBuilder-iOSTests"
                ReferencedContainer = "container:AHKBuilder.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -42,9 +56,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A63B16D01B0135F60018F65A"
-            BuildableName = "AHKBuilderTests.xctest"
-            BlueprintName = "AHKBuilderTests"
+            BlueprintIdentifier = "A6AE41641B03EB690041C1E6"
+            BuildableName = "AHKBuilder.framework"
+            BlueprintName = "AHKBuilder-iOS"
             ReferencedContainer = "container:AHKBuilder.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -61,9 +75,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A63B16D01B0135F60018F65A"
-            BuildableName = "AHKBuilderTests.xctest"
-            BlueprintName = "AHKBuilderTests"
+            BlueprintIdentifier = "A6AE41641B03EB690041C1E6"
+            BuildableName = "AHKBuilder.framework"
+            BlueprintName = "AHKBuilder-iOS"
             ReferencedContainer = "container:AHKBuilder.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -79,9 +93,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A63B16D01B0135F60018F65A"
-            BuildableName = "AHKBuilderTests.xctest"
-            BlueprintName = "AHKBuilderTests"
+            BlueprintIdentifier = "A6AE41641B03EB690041C1E6"
+            BuildableName = "AHKBuilder.framework"
+            BlueprintName = "AHKBuilder-iOS"
             ReferencedContainer = "container:AHKBuilder.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

@@ -7,134 +7,316 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A63B16D71B0135F60018F65A /* AHKBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A63B16D61B0135F60018F65A /* AHKBuilderTests.m */; };
-		A63B16DE1B0136690018F65A /* NSObject+AHKBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = A63B16DD1B0136690018F65A /* NSObject+AHKBuilder.m */; };
-		A63B16E11B0136720018F65A /* NSInvocation+AHKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A63B16E01B0136720018F65A /* NSInvocation+AHKAdditions.m */; };
-		A63B16E41B01374B0018F65A /* Reminder.m in Sources */ = {isa = PBXBuildFile; fileRef = A63B16E31B01374B0018F65A /* Reminder.m */; };
+		A62AEB241B03EDD300FAD5F5 /* AHKBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = A6AE41491B03EB480041C1E6 /* AHKBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A62AEB251B03EDD500FAD5F5 /* AHKBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = A6AE41491B03EB480041C1E6 /* AHKBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A62AEB281B03EE2000FAD5F5 /* Reminder.h in Headers */ = {isa = PBXBuildFile; fileRef = A62AEB261B03EE2000FAD5F5 /* Reminder.h */; };
+		A62AEB291B03EE2000FAD5F5 /* Reminder.m in Sources */ = {isa = PBXBuildFile; fileRef = A62AEB271B03EE2000FAD5F5 /* Reminder.m */; };
+		A62AEB2E1B03EE2C00FAD5F5 /* NSInvocation+AHKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A62AEB2A1B03EE2C00FAD5F5 /* NSInvocation+AHKAdditions.h */; };
+		A62AEB2F1B03EE2C00FAD5F5 /* NSInvocation+AHKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A62AEB2B1B03EE2C00FAD5F5 /* NSInvocation+AHKAdditions.m */; };
+		A62AEB301B03EE2C00FAD5F5 /* NSObject+AHKBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = A62AEB2C1B03EE2C00FAD5F5 /* NSObject+AHKBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A62AEB311B03EE2C00FAD5F5 /* NSObject+AHKBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = A62AEB2D1B03EE2C00FAD5F5 /* NSObject+AHKBuilder.m */; };
+		A62AEB321B03EE5100FAD5F5 /* AHKBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6AE41561B03EB480041C1E6 /* AHKBuilderTests.m */; };
+		A62AEB331B03EE5200FAD5F5 /* AHKBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6AE41561B03EB480041C1E6 /* AHKBuilderTests.m */; };
+		A62AEB341B03EEAF00FAD5F5 /* Reminder.m in Sources */ = {isa = PBXBuildFile; fileRef = A62AEB271B03EE2000FAD5F5 /* Reminder.m */; };
+		A62AEB351B03EEC000FAD5F5 /* NSObject+AHKBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = A62AEB2D1B03EE2C00FAD5F5 /* NSObject+AHKBuilder.m */; };
+		A62AEB361B03EECC00FAD5F5 /* NSInvocation+AHKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A62AEB2B1B03EE2C00FAD5F5 /* NSInvocation+AHKAdditions.m */; };
+		A64A63211B03F02E00E3A59F /* NSObject+AHKBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = A62AEB2C1B03EE2C00FAD5F5 /* NSObject+AHKBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6AE41701B03EB690041C1E6 /* AHKBuilder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6AE41651B03EB690041C1E6 /* AHKBuilder.framework */; };
+		A6AE418E1B03EB730041C1E6 /* AHKBuilder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6AE41831B03EB730041C1E6 /* AHKBuilder.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A6AE41711B03EB690041C1E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6AE413B1B03EB480041C1E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6AE41641B03EB690041C1E6;
+			remoteInfo = "AHKBuilder-iOS";
+		};
+		A6AE418F1B03EB730041C1E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6AE413B1B03EB480041C1E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6AE41821B03EB730041C1E6;
+			remoteInfo = "AHKBuilder-Mac";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		A63B16D11B0135F60018F65A /* AHKBuilderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AHKBuilderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A63B16D51B0135F60018F65A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A63B16D61B0135F60018F65A /* AHKBuilderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHKBuilderTests.m; sourceTree = "<group>"; };
-		A63B16DC1B0136690018F65A /* NSObject+AHKBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AHKBuilder.h"; sourceTree = "<group>"; };
-		A63B16DD1B0136690018F65A /* NSObject+AHKBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AHKBuilder.m"; sourceTree = "<group>"; };
-		A63B16DF1B0136720018F65A /* NSInvocation+AHKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+AHKAdditions.h"; sourceTree = "<group>"; };
-		A63B16E01B0136720018F65A /* NSInvocation+AHKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+AHKAdditions.m"; sourceTree = "<group>"; };
-		A63B16E21B01374B0018F65A /* Reminder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reminder.h; sourceTree = "<group>"; };
-		A63B16E31B01374B0018F65A /* Reminder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reminder.m; sourceTree = "<group>"; };
+		A62AEB261B03EE2000FAD5F5 /* Reminder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reminder.h; sourceTree = "<group>"; };
+		A62AEB271B03EE2000FAD5F5 /* Reminder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reminder.m; sourceTree = "<group>"; };
+		A62AEB2A1B03EE2C00FAD5F5 /* NSInvocation+AHKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+AHKAdditions.h"; sourceTree = "<group>"; };
+		A62AEB2B1B03EE2C00FAD5F5 /* NSInvocation+AHKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+AHKAdditions.m"; sourceTree = "<group>"; };
+		A62AEB2C1B03EE2C00FAD5F5 /* NSObject+AHKBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AHKBuilder.h"; sourceTree = "<group>"; };
+		A62AEB2D1B03EE2C00FAD5F5 /* NSObject+AHKBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AHKBuilder.m"; sourceTree = "<group>"; };
+		A6AE41481B03EB480041C1E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6AE41491B03EB480041C1E6 /* AHKBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AHKBuilder.h; sourceTree = "<group>"; };
+		A6AE41551B03EB480041C1E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6AE41561B03EB480041C1E6 /* AHKBuilderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHKBuilderTests.m; sourceTree = "<group>"; };
+		A6AE41651B03EB690041C1E6 /* AHKBuilder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AHKBuilder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6AE416F1B03EB690041C1E6 /* AHKBuilder-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AHKBuilder-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6AE41831B03EB730041C1E6 /* AHKBuilder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AHKBuilder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6AE418D1B03EB730041C1E6 /* AHKBuilder-MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AHKBuilder-MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A63B16CE1B0135F60018F65A /* Frameworks */ = {
+		A6AE41611B03EB690041C1E6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A6AE416C1B03EB690041C1E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6AE41701B03EB690041C1E6 /* AHKBuilder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6AE417F1B03EB730041C1E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6AE418A1B03EB730041C1E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6AE418E1B03EB730041C1E6 /* AHKBuilder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A63B16C61B0135B20018F65A = {
+		A6AE413A1B03EB480041C1E6 = {
 			isa = PBXGroup;
 			children = (
-				A63B16DB1B0135FC0018F65A /* AHKBuilder */,
-				A63B16D31B0135F60018F65A /* AHKBuilderTests */,
-				A63B16D21B0135F60018F65A /* Products */,
+				A6AE41461B03EB480041C1E6 /* AHKBuilder */,
+				A6AE41531B03EB480041C1E6 /* AHKBuilderTests */,
+				A6AE41451B03EB480041C1E6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A63B16D21B0135F60018F65A /* Products */ = {
+		A6AE41451B03EB480041C1E6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A63B16D11B0135F60018F65A /* AHKBuilderTests.xctest */,
+				A6AE41651B03EB690041C1E6 /* AHKBuilder.framework */,
+				A6AE416F1B03EB690041C1E6 /* AHKBuilder-iOSTests.xctest */,
+				A6AE41831B03EB730041C1E6 /* AHKBuilder.framework */,
+				A6AE418D1B03EB730041C1E6 /* AHKBuilder-MacTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A63B16D31B0135F60018F65A /* AHKBuilderTests */ = {
+		A6AE41461B03EB480041C1E6 /* AHKBuilder */ = {
 			isa = PBXGroup;
 			children = (
-				A63B16D61B0135F60018F65A /* AHKBuilderTests.m */,
-				A63B16E21B01374B0018F65A /* Reminder.h */,
-				A63B16E31B01374B0018F65A /* Reminder.m */,
-				A63B16D41B0135F60018F65A /* Supporting Files */,
-			);
-			path = AHKBuilderTests;
-			sourceTree = "<group>";
-		};
-		A63B16D41B0135F60018F65A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				A63B16D51B0135F60018F65A /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A63B16DB1B0135FC0018F65A /* AHKBuilder */ = {
-			isa = PBXGroup;
-			children = (
-				A63B16DC1B0136690018F65A /* NSObject+AHKBuilder.h */,
-				A63B16DD1B0136690018F65A /* NSObject+AHKBuilder.m */,
-				A63B16DF1B0136720018F65A /* NSInvocation+AHKAdditions.h */,
-				A63B16E01B0136720018F65A /* NSInvocation+AHKAdditions.m */,
+				A62AEB2A1B03EE2C00FAD5F5 /* NSInvocation+AHKAdditions.h */,
+				A62AEB2B1B03EE2C00FAD5F5 /* NSInvocation+AHKAdditions.m */,
+				A62AEB2C1B03EE2C00FAD5F5 /* NSObject+AHKBuilder.h */,
+				A62AEB2D1B03EE2C00FAD5F5 /* NSObject+AHKBuilder.m */,
+				A6AE41491B03EB480041C1E6 /* AHKBuilder.h */,
+				A6AE41471B03EB480041C1E6 /* Supporting Files */,
 			);
 			path = AHKBuilder;
 			sourceTree = "<group>";
 		};
+		A6AE41471B03EB480041C1E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6AE41481B03EB480041C1E6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6AE41531B03EB480041C1E6 /* AHKBuilderTests */ = {
+			isa = PBXGroup;
+			children = (
+				A62AEB261B03EE2000FAD5F5 /* Reminder.h */,
+				A62AEB271B03EE2000FAD5F5 /* Reminder.m */,
+				A6AE41561B03EB480041C1E6 /* AHKBuilderTests.m */,
+				A6AE41541B03EB480041C1E6 /* Supporting Files */,
+			);
+			path = AHKBuilderTests;
+			sourceTree = "<group>";
+		};
+		A6AE41541B03EB480041C1E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6AE41551B03EB480041C1E6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		A6AE41621B03EB690041C1E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62AEB281B03EE2000FAD5F5 /* Reminder.h in Headers */,
+				A62AEB301B03EE2C00FAD5F5 /* NSObject+AHKBuilder.h in Headers */,
+				A62AEB2E1B03EE2C00FAD5F5 /* NSInvocation+AHKAdditions.h in Headers */,
+				A62AEB241B03EDD300FAD5F5 /* AHKBuilder.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6AE41801B03EB730041C1E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62AEB251B03EDD500FAD5F5 /* AHKBuilder.h in Headers */,
+				A64A63211B03F02E00E3A59F /* NSObject+AHKBuilder.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		A63B16D01B0135F60018F65A /* AHKBuilderTests */ = {
+		A6AE41641B03EB690041C1E6 /* AHKBuilder-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A63B16D81B0135F60018F65A /* Build configuration list for PBXNativeTarget "AHKBuilderTests" */;
+			buildConfigurationList = A6AE41781B03EB690041C1E6 /* Build configuration list for PBXNativeTarget "AHKBuilder-iOS" */;
 			buildPhases = (
-				A63B16CD1B0135F60018F65A /* Sources */,
-				A63B16CE1B0135F60018F65A /* Frameworks */,
-				A63B16CF1B0135F60018F65A /* Resources */,
+				A6AE41601B03EB690041C1E6 /* Sources */,
+				A6AE41611B03EB690041C1E6 /* Frameworks */,
+				A6AE41621B03EB690041C1E6 /* Headers */,
+				A6AE41631B03EB690041C1E6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = AHKBuilderTests;
-			productName = AHKBuilderTests;
-			productReference = A63B16D11B0135F60018F65A /* AHKBuilderTests.xctest */;
+			name = "AHKBuilder-iOS";
+			productName = "AHKBuilder-iOS";
+			productReference = A6AE41651B03EB690041C1E6 /* AHKBuilder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A6AE416E1B03EB690041C1E6 /* AHKBuilder-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6AE417B1B03EB690041C1E6 /* Build configuration list for PBXNativeTarget "AHKBuilder-iOSTests" */;
+			buildPhases = (
+				A6AE416B1B03EB690041C1E6 /* Sources */,
+				A6AE416C1B03EB690041C1E6 /* Frameworks */,
+				A6AE416D1B03EB690041C1E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6AE41721B03EB690041C1E6 /* PBXTargetDependency */,
+			);
+			name = "AHKBuilder-iOSTests";
+			productName = "AHKBuilder-iOSTests";
+			productReference = A6AE416F1B03EB690041C1E6 /* AHKBuilder-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6AE41821B03EB730041C1E6 /* AHKBuilder-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6AE41961B03EB730041C1E6 /* Build configuration list for PBXNativeTarget "AHKBuilder-Mac" */;
+			buildPhases = (
+				A6AE417E1B03EB730041C1E6 /* Sources */,
+				A6AE417F1B03EB730041C1E6 /* Frameworks */,
+				A6AE41801B03EB730041C1E6 /* Headers */,
+				A6AE41811B03EB730041C1E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AHKBuilder-Mac";
+			productName = "AHKBuilder-Mac";
+			productReference = A6AE41831B03EB730041C1E6 /* AHKBuilder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A6AE418C1B03EB730041C1E6 /* AHKBuilder-MacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6AE41991B03EB730041C1E6 /* Build configuration list for PBXNativeTarget "AHKBuilder-MacTests" */;
+			buildPhases = (
+				A6AE41891B03EB730041C1E6 /* Sources */,
+				A6AE418A1B03EB730041C1E6 /* Frameworks */,
+				A6AE418B1B03EB730041C1E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6AE41901B03EB730041C1E6 /* PBXTargetDependency */,
+			);
+			name = "AHKBuilder-MacTests";
+			productName = "AHKBuilder-MacTests";
+			productReference = A6AE418D1B03EB730041C1E6 /* AHKBuilder-MacTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A63B16C71B0135B20018F65A /* Project object */ = {
+		A6AE413B1B03EB480041C1E6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Arkadiusz Holko";
 				TargetAttributes = {
-					A63B16D01B0135F60018F65A = {
+					A6AE41641B03EB690041C1E6 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					A6AE416E1B03EB690041C1E6 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					A6AE41821B03EB730041C1E6 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					A6AE418C1B03EB730041C1E6 = {
 						CreatedOnToolsVersion = 6.3.1;
 					};
 				};
 			};
-			buildConfigurationList = A63B16CA1B0135B20018F65A /* Build configuration list for PBXProject "AHKBuilder" */;
+			buildConfigurationList = A6AE413E1B03EB480041C1E6 /* Build configuration list for PBXProject "AHKBuilder" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = A63B16C61B0135B20018F65A;
-			productRefGroup = A63B16D21B0135F60018F65A /* Products */;
+			mainGroup = A6AE413A1B03EB480041C1E6;
+			productRefGroup = A6AE41451B03EB480041C1E6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A63B16D01B0135F60018F65A /* AHKBuilderTests */,
+				A6AE41641B03EB690041C1E6 /* AHKBuilder-iOS */,
+				A6AE416E1B03EB690041C1E6 /* AHKBuilder-iOSTests */,
+				A6AE41821B03EB730041C1E6 /* AHKBuilder-Mac */,
+				A6AE418C1B03EB730041C1E6 /* AHKBuilder-MacTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A63B16CF1B0135F60018F65A /* Resources */ = {
+		A6AE41631B03EB690041C1E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6AE416D1B03EB690041C1E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6AE41811B03EB730041C1E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6AE418B1B03EB730041C1E6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -144,35 +326,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A63B16CD1B0135F60018F65A /* Sources */ = {
+		A6AE41601B03EB690041C1E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A63B16DE1B0136690018F65A /* NSObject+AHKBuilder.m in Sources */,
-				A63B16E11B0136720018F65A /* NSInvocation+AHKAdditions.m in Sources */,
-				A63B16D71B0135F60018F65A /* AHKBuilderTests.m in Sources */,
-				A63B16E41B01374B0018F65A /* Reminder.m in Sources */,
+				A62AEB291B03EE2000FAD5F5 /* Reminder.m in Sources */,
+				A62AEB2F1B03EE2C00FAD5F5 /* NSInvocation+AHKAdditions.m in Sources */,
+				A62AEB311B03EE2C00FAD5F5 /* NSObject+AHKBuilder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6AE416B1B03EB690041C1E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62AEB321B03EE5100FAD5F5 /* AHKBuilderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6AE417E1B03EB730041C1E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62AEB351B03EEC000FAD5F5 /* NSObject+AHKBuilder.m in Sources */,
+				A62AEB361B03EECC00FAD5F5 /* NSInvocation+AHKAdditions.m in Sources */,
+				A62AEB341B03EEAF00FAD5F5 /* Reminder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6AE41891B03EB730041C1E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62AEB331B03EE5200FAD5F5 /* AHKBuilderTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		A6AE41721B03EB690041C1E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6AE41641B03EB690041C1E6 /* AHKBuilder-iOS */;
+			targetProxy = A6AE41711B03EB690041C1E6 /* PBXContainerItemProxy */;
+		};
+		A6AE41901B03EB730041C1E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6AE41821B03EB730041C1E6 /* AHKBuilder-Mac */;
+			targetProxy = A6AE418F1B03EB730041C1E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		A63B16CB1B0135B20018F65A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-			};
-			name = Debug;
-		};
-		A63B16CC1B0135B20018F65A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-			};
-			name = Release;
-		};
-		A63B16D91B0135F60018F65A /* Debug */ = {
+		A6AE41581B03EB480041C1E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -189,13 +395,11 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -211,17 +415,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = AHKBuilderTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		A63B16DA1B0135F60018F65A /* Release */ = {
+		A6AE41591B03EB480041C1E6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -238,14 +442,12 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -254,38 +456,211 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = AHKBuilderTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A6AE41791B03EB690041C1E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AHKBuilder/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = mh_dylib;
+				PRODUCT_NAME = AHKBuilder;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A6AE417A1B03EB690041C1E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AHKBuilder/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = mh_dylib;
+				PRODUCT_NAME = AHKBuilder;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A6AE417C1B03EB690041C1E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AHKBuilder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A6AE417D1B03EB690041C1E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AHKBuilder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A6AE41971B03EB730041C1E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AHKBuilder/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = AHKBuilder;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A6AE41981B03EB730041C1E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = AHKBuilder/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = AHKBuilder;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A6AE419A1B03EB730041C1E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AHKBuilder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A6AE419B1B03EB730041C1E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AHKBuilder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A63B16CA1B0135B20018F65A /* Build configuration list for PBXProject "AHKBuilder" */ = {
+		A6AE413E1B03EB480041C1E6 /* Build configuration list for PBXProject "AHKBuilder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A63B16CB1B0135B20018F65A /* Debug */,
-				A63B16CC1B0135B20018F65A /* Release */,
+				A6AE41581B03EB480041C1E6 /* Debug */,
+				A6AE41591B03EB480041C1E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A63B16D81B0135F60018F65A /* Build configuration list for PBXNativeTarget "AHKBuilderTests" */ = {
+		A6AE41781B03EB690041C1E6 /* Build configuration list for PBXNativeTarget "AHKBuilder-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A63B16D91B0135F60018F65A /* Debug */,
-				A63B16DA1B0135F60018F65A /* Release */,
+				A6AE41791B03EB690041C1E6 /* Debug */,
+				A6AE417A1B03EB690041C1E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6AE417B1B03EB690041C1E6 /* Build configuration list for PBXNativeTarget "AHKBuilder-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6AE417C1B03EB690041C1E6 /* Debug */,
+				A6AE417D1B03EB690041C1E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6AE41961B03EB730041C1E6 /* Build configuration list for PBXNativeTarget "AHKBuilder-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6AE41971B03EB730041C1E6 /* Debug */,
+				A6AE41981B03EB730041C1E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6AE41991B03EB730041C1E6 /* Build configuration list for PBXNativeTarget "AHKBuilder-MacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6AE419A1B03EB730041C1E6 /* Debug */,
+				A6AE419B1B03EB730041C1E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A63B16C71B0135B20018F65A /* Project object */;
+	rootObject = A6AE413B1B03EB480041C1E6 /* Project object */;
 }
