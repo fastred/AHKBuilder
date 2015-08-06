@@ -15,12 +15,13 @@
 		A62AEB2F1B03EE2C00FAD5F5 /* NSInvocation+AHKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A62AEB2B1B03EE2C00FAD5F5 /* NSInvocation+AHKAdditions.m */; };
 		A62AEB301B03EE2C00FAD5F5 /* NSObject+AHKBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = A62AEB2C1B03EE2C00FAD5F5 /* NSObject+AHKBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A62AEB311B03EE2C00FAD5F5 /* NSObject+AHKBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = A62AEB2D1B03EE2C00FAD5F5 /* NSObject+AHKBuilder.m */; };
-		A62AEB321B03EE5100FAD5F5 /* AHKBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6AE41561B03EB480041C1E6 /* AHKBuilderTests.m */; };
-		A62AEB331B03EE5200FAD5F5 /* AHKBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6AE41561B03EB480041C1E6 /* AHKBuilderTests.m */; };
+		A62AEB321B03EE5100FAD5F5 /* AHKBuilderTestsForClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A6AE41561B03EB480041C1E6 /* AHKBuilderTestsForClass.m */; };
+		A62AEB331B03EE5200FAD5F5 /* AHKBuilderTestsForClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A6AE41561B03EB480041C1E6 /* AHKBuilderTestsForClass.m */; };
 		A62AEB341B03EEAF00FAD5F5 /* Reminder.m in Sources */ = {isa = PBXBuildFile; fileRef = A62AEB271B03EE2000FAD5F5 /* Reminder.m */; };
 		A62AEB351B03EEC000FAD5F5 /* NSObject+AHKBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = A62AEB2D1B03EE2C00FAD5F5 /* NSObject+AHKBuilder.m */; };
 		A62AEB361B03EECC00FAD5F5 /* NSInvocation+AHKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A62AEB2B1B03EE2C00FAD5F5 /* NSInvocation+AHKAdditions.m */; };
 		A64A63211B03F02E00E3A59F /* NSObject+AHKBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = A62AEB2C1B03EE2C00FAD5F5 /* NSObject+AHKBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A64A94FB1B73DAEB003F8113 /* AHKBuilderTestsForProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = A64A94FA1B73DAEB003F8113 /* AHKBuilderTestsForProtocol.m */; };
 		A6AE41701B03EB690041C1E6 /* AHKBuilder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6AE41651B03EB690041C1E6 /* AHKBuilder.framework */; };
 		A6AE418E1B03EB730041C1E6 /* AHKBuilder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6AE41831B03EB730041C1E6 /* AHKBuilder.framework */; };
 /* End PBXBuildFile section */
@@ -49,10 +50,11 @@
 		A62AEB2B1B03EE2C00FAD5F5 /* NSInvocation+AHKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+AHKAdditions.m"; sourceTree = "<group>"; };
 		A62AEB2C1B03EE2C00FAD5F5 /* NSObject+AHKBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AHKBuilder.h"; sourceTree = "<group>"; };
 		A62AEB2D1B03EE2C00FAD5F5 /* NSObject+AHKBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AHKBuilder.m"; sourceTree = "<group>"; };
+		A64A94FA1B73DAEB003F8113 /* AHKBuilderTestsForProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHKBuilderTestsForProtocol.m; sourceTree = "<group>"; };
 		A6AE41481B03EB480041C1E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6AE41491B03EB480041C1E6 /* AHKBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AHKBuilder.h; sourceTree = "<group>"; };
 		A6AE41551B03EB480041C1E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A6AE41561B03EB480041C1E6 /* AHKBuilderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHKBuilderTests.m; sourceTree = "<group>"; };
+		A6AE41561B03EB480041C1E6 /* AHKBuilderTestsForClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHKBuilderTestsForClass.m; sourceTree = "<group>"; };
 		A6AE41651B03EB690041C1E6 /* AHKBuilder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AHKBuilder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6AE416F1B03EB690041C1E6 /* AHKBuilder-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AHKBuilder-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6AE41831B03EB730041C1E6 /* AHKBuilder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AHKBuilder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,7 +141,8 @@
 			children = (
 				A62AEB261B03EE2000FAD5F5 /* Reminder.h */,
 				A62AEB271B03EE2000FAD5F5 /* Reminder.m */,
-				A6AE41561B03EB480041C1E6 /* AHKBuilderTests.m */,
+				A6AE41561B03EB480041C1E6 /* AHKBuilderTestsForClass.m */,
+				A64A94FA1B73DAEB003F8113 /* AHKBuilderTestsForProtocol.m */,
 				A6AE41541B03EB480041C1E6 /* Supporting Files */,
 			);
 			path = AHKBuilderTests;
@@ -340,7 +343,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A62AEB321B03EE5100FAD5F5 /* AHKBuilderTests.m in Sources */,
+				A62AEB321B03EE5100FAD5F5 /* AHKBuilderTestsForClass.m in Sources */,
+				A64A94FB1B73DAEB003F8113 /* AHKBuilderTestsForProtocol.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,7 +362,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A62AEB331B03EE5200FAD5F5 /* AHKBuilderTests.m in Sources */,
+				A62AEB331B03EE5200FAD5F5 /* AHKBuilderTestsForClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
