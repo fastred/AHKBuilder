@@ -64,6 +64,14 @@ Reminder *reminder = [[Reminder alloc] initWithBuilder_ahk:^(id<ReminderBuilder>
 
 Source files can be found in `AHKBuilder` folder. `AHKBuilder` is compatible with Carthage.
 
+## Changelog
+
+### 0.2
+Fixed crash when working with objects conforming to protocols inheriting from NSObject.
+
+### 0.1
+Initial release.
+
 ## Author
 
 Arkadiusz Holko:
